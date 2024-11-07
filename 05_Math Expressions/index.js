@@ -64,4 +64,18 @@ document.write(`4 X 9 = ${tableNumber * 10} </br>`);
 
 //The Temperature Converter
 
-var Celsiustemperature = 37;
+// Q 8
+
+// a. Store a Celsius temperature into a variable
+let celsius = 25; // Example: 25°C
+
+// b. Convert it to Fahrenheit and output
+let fahrenheit = (celsius * 9) / 5 + 32;
+document.write(`${celsius}°C is ${fahrenheit}°F </br>`);
+
+// c. Now store a Fahrenheit temperature into a variable
+let fahrenheitInput = 77; // Example: 77°F
+
+// d. Convert it to Celsius and output
+let celsiusConverted = ((fahrenheitInput - 32) * 5) / 9;
+document.write(`${fahrenheitInput}°F is ${celsiusConverted.toFixed(2)}°C`);
